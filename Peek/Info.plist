@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>气势如虹</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -36,12 +38,24 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
+	<key>UIApplicationShortcutItems</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+		<dict>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict/>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>第一最好不相见</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>abc</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict/>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>如此便可不相恋</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>def</string>
+		</dict>
 	</array>
 </dict>
 </plist>
