@@ -2,9 +2,6 @@
 //  ViewController.m
 //  Peek
 //
-//  Created by 石飞龙 on 16/2/2.
-//  Copyright © 2016年 石飞龙. All rights reserved.
-//
 
 #import "ViewController.h"
 
@@ -18,6 +15,7 @@
     [super viewDidLoad];
     NSLog(@"Hello World!");
     self.view.backgroundColor = [UIColor orangeColor];
+    NSLog(@"Peek");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
