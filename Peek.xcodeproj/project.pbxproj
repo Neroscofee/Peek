@@ -15,6 +15,7 @@
 		7F01BCDA1C604F740060B2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F01BCD81C604F740060B2BE /* LaunchScreen.storyboard */; };
 		7F01BCE51C604F750060B2BE /* PeekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F01BCE41C604F750060B2BE /* PeekTests.m */; };
 		7F01BCF01C604F750060B2BE /* PeekUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F01BCEF1C604F750060B2BE /* PeekUITests.m */; };
+		C4D9E1501FA2FFB7007232E9 /* Rainbow.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D9E14F1FA2FFB7007232E9 /* Rainbow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7F01BCEB1C604F750060B2BE /* PeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F01BCEF1C604F750060B2BE /* PeekUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeekUITests.m; sourceTree = "<group>"; };
 		7F01BCF11C604F750060B2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D9E14E1FA2FFB7007232E9 /* Rainbow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rainbow.h; sourceTree = "<group>"; };
+		C4D9E14F1FA2FFB7007232E9 /* Rainbow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rainbow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7F01BCCE1C604F740060B2BE /* AppDelegate.m */,
 				7F01BCD01C604F740060B2BE /* ViewController.h */,
 				7F01BCD11C604F740060B2BE /* ViewController.m */,
+				C4D9E14E1FA2FFB7007232E9 /* Rainbow.h */,
+				C4D9E14F1FA2FFB7007232E9 /* Rainbow.m */,
 				7F01BCD31C604F740060B2BE /* Main.storyboard */,
 				7F01BCD61C604F740060B2BE /* Assets.xcassets */,
 				7F01BCD81C604F740060B2BE /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			files = (
 				7F01BCD21C604F740060B2BE /* ViewController.m in Sources */,
 				7F01BCCF1C604F740060B2BE /* AppDelegate.m in Sources */,
+				C4D9E1501FA2FFB7007232E9 /* Rainbow.m in Sources */,
 				7F01BCCC1C604F740060B2BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +507,7 @@
 				7F01BCF61C604F750060B2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F01BCF71C604F750060B2BE /* Build configuration list for PBXNativeTarget "PeekTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				7F01BCF91C604F750060B2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F01BCFA1C604F750060B2BE /* Build configuration list for PBXNativeTarget "PeekUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				7F01BCFC1C604F750060B2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
