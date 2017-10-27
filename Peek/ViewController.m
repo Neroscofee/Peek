@@ -16,6 +16,7 @@
     NSLog(@"Hello World!");
     self.view.backgroundColor = [UIColor orangeColor];
     NSLog(@"Peek");
+    NSLog(@"test");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
