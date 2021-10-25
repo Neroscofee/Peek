@@ -2,15 +2,17 @@
 //  main.m
 //  Peek
 //
-//  Created by 石飞龙 on 16/2/2.
-//  Copyright © 2016年 石飞龙. All rights reserved.
+//  Created by Neroscofee on 2021/10/25.
 //
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
+    NSString * appDelegateClassName;
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        // Setup code that might create autoreleased objects goes here.
+        appDelegateClassName = NSStringFromClass([AppDelegate class]);
     }
+    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
