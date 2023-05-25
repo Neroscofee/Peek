@@ -18,6 +18,7 @@
 		4C2BAED82726B351001A6374 /* PeekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BAED72726B351001A6374 /* PeekTests.m */; };
 		4C2BAEE22726B351001A6374 /* PeekUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BAEE12726B351001A6374 /* PeekUITests.m */; };
 		4C2BAEE42726B351001A6374 /* PeekUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BAEE32726B351001A6374 /* PeekUITestsLaunchTests.m */; };
+		4C2BAEF22726C10F001A6374 /* UIColor+DYTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BAEF02726C10E001A6374 /* UIColor+DYTColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		4C2BAEDD2726B351001A6374 /* PeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C2BAEE12726B351001A6374 /* PeekUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeekUITests.m; sourceTree = "<group>"; };
 		4C2BAEE32726B351001A6374 /* PeekUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeekUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4C2BAEF02726C10E001A6374 /* UIColor+DYTColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DYTColor.m"; sourceTree = "<group>"; };
+		4C2BAEF12726C10E001A6374 /* UIColor+DYTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DYTColor.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				4C2BAEC02726B34E001A6374 /* Scene.m */,
 				4C2BAEC22726B34E001A6374 /* ViewController.h */,
 				4C2BAEC32726B34E001A6374 /* ViewController.m */,
+				4C2BAEF12726C10E001A6374 /* UIColor+DYTColor.h */,
+				4C2BAEF02726C10E001A6374 /* UIColor+DYTColor.m */,
 				4C2BAEC52726B34E001A6374 /* Main.storyboard */,
 				4C2BAEC82726B350001A6374 /* Assets.xcassets */,
 				4C2BAECA2726B350001A6374 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 				4C2BAEC12726B34E001A6374 /* Scene.m in Sources */,
 				4C2BAECE2726B350001A6374 /* main.m in Sources */,
 				4C2BAEBC2726B34E001A6374 /* AppDelegate.m in Sources */,
+				4C2BAEF22726C10F001A6374 /* UIColor+DYTColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +492,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
